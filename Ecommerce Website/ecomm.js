@@ -56,7 +56,7 @@ let products=[
     },
     {
         name: "Capsicum",
-        tag: "Bellpepper",
+        tag: "capsicum",
         price: 59,
         inCart: 0
     },
