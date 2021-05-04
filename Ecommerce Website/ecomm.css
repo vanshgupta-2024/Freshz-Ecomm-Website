@@ -227,7 +227,7 @@ h3{
         display: block;
     }
 }
-@media only screen and (max-width: 600px)  {
+@media only screen  and (max-width: 600px)  {
     .row{
         text-align: center;
     }
@@ -237,7 +237,47 @@ h3{
     h3{
         margin-top: 20px;
     }
+    .Explore{
+        margin-left: 40px;
+    }
+    .col h1{
+        font-size: 50px;
+        line-height: 60px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    .col p{
+        font-size: 20px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
 }
+@media only screen and (max-width: 400px){
+    .row{
+        text-align: center;
+    }
+    .col, .col-2, .footer-col1,.footer-col2,.footer-col3,.footer-col4{
+        flex-basis: 100%;
+    }
+    h3{
+        margin-top: 20px;
+    }
+    .Explore{
+        margin-left: 20px;
+    }
+    .col h1{
+        font-size: 40px;
+        line-height: 60px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .col p{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}
+
 
 
 /* --------Cart Page-------- */
