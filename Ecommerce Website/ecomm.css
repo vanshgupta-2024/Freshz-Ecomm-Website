@@ -329,6 +329,23 @@ h3{
     width: 100%;
     padding: 10px 0;
 }
+.basketContainer button{
+    width: 100px;
+    height: 40px;
+    margin-top: 55px;
+    cursor: pointer;
+    background-color: rgb(233, 74, 25);
+    border-radius: 20px;
+    color: white;
+    border: 3px solid black;
+    font-size: 15px;
+}
+.basketContainer button:hover{
+    background-color: greenyellow;
+    color: black;
+    transition: 0.4s;
+    box-shadow: 1px 1px 3px;
+}
 
 .basketTitle{
     width: 30%;
