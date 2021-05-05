@@ -180,7 +180,12 @@ function CartDisplay(){
                  Basket Total: <br>
                  ₹${TotalCost} 
               </h1>
+              <button onclick="myFunction()">Clear Cart</button>
            </div>
         `;
     }
+}
+function myFunction(){
+    localStorage.clear();
+location.reload();
 }
